@@ -1,0 +1,25 @@
+@import 'nanocss.scss';
+body, input:not([type=submit]):not([type=reset]):not([type=button]):not([type=checkbox]):not([type=radio]),
+optgroup,
+select,
+textarea {
+	color: $white;
+	background-color: $black;
+}
+
+blockquote, pre {
+	background-color: $silver;
+	color: $black;
+}
+
+a:hover {
+	color: $white;
+}
+
+button, *[type=submit], *[type=reset] {
+	transition: all .3s ease;
+	&:hover {
+		background-color: $white;
+		color: $black;
+	}
+}

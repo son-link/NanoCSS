@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>NanoCSS</title>
+		<link rel="stylesheet" href="nanocss.min.css" id="style" />
+		<link rel="stylesheet" href="fontello-embedded.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+			<span class="navbar-title">NanoCSS</span>
+			<nav class="float-right">
+				<a id="toggle-dark" class="icon-light-down" title="Turn off light" href="#"></a>
+				<a href="https://github.com/son-link/nanocss/" target="_blank"><i class="icon-github-circled"></i></a>
+			</nav>
+		</header>
+		<div class="container">
+			<div id="header">
+				<h1>NanoCSS</h1>
+				<p>A very lightweight CSS framework</p>
+			</div>
+			<p>
+				NanoCSS is a ready to use Lightweight CSS Framework and not required any Javascript or using HTML classes. NanoCSS is designed so that you can have a website ready in a short time, with a clean code and that you can modify and expand according to your needs.
+			</p>
+
+			<h3>Features</h3>
+			<ul id="features">
+				<li><i class="icon-code"></i>Ready to use. Only download and include on your pages.</li>
+				<li><i class="icon-html5"></i>No classes, only standar HTML5 elements.</li>
+				<li><i class="icon-flash"></i>Very lightweight. Little more than 1Kb minified and gzipped.</li>
+				<li><i class="icon-pencil"></i>Write using SASS and include the 16 colors <a href="http://clrs.cc/" target="_blank">Clrs</a> palette. You can change the colors of many elemets or the entire palette.</li>
+				<li><i class="icon-light-down"></i>Dark variant, ideal if you are a creature of the night.</li>
+			</ul>
+			<a id="download" href="https://github.com/son-link/nanocss/releases/latest">Download last release (1.0)</a>
+			<div id="github-badges">
+				<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/son-link/NanoCSS/total?style=flat-square">
+				<img alt="GitHub" src="https://img.shields.io/github/license/son-link/NanoCSS?style=flat-square">
+				<img alt="GitHub stars" src="https://img.shields.io/github/stars/son-link/NanoCSS?style=flat-square">
+			</div>
+			<div id="examples">
+				<h2>Examples:</h2>
+				<a name="typography"></a>
+				<h3>Typography</h3>
+				<p>
+					<h1>Header H1</h1>
+					<h2>Header H2</h2>
+					<h3>Header H3</h3>
+					<h4>Header H4</h4>
+					<h5>Header H5</h5>
+					<h6>Header H6</h6>
+				</p>
+					<a name="lists"></a>
+				<h4>Lists</h4>
+				<p>
+					<ul>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>
+							Sublist:
+							<ul>
+								<li>Lorem ipsum</li>
+								<li>Lorem ipsum</li>
+								<li>Lorem ipsum</li>
+							</ul>
+						</li>
+						<li>Lorem ipsum</li>
+					</ul>
+		
+					<ol>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Sublist:
+							<ol>
+								<li>Lorem ipsum</li>
+								<li>Lorem ipsum</li>
+								<li>Lorem ipsum</li>
+							</ol>
+						</li>
+						<li>Lorem ipsum</li>
+					</ol>
+				</p>
+				
+				<h4>Buttons:</h4>
+				<p>
+					<button>Button</button>
+					<input type="submit" value="Submit" />
+					<input type="reset" value="Reset" />
+				</p>
+
+				<h4>Form</h4>
+				<p>
+					<label>Input</label>
+					<input type="text" placeholder="placeholder" />
+					
+					<textarea>Textarea</textarea>
+					<select>
+						<option>Select with options</option>
+					</select>
+					<select>
+					<optgroup label="Series">
+						<option>Dragon Ball</option>
+						<option>Power Rangers</option>
+					</optgroup>
+					<optgroup label="Movies">
+						<option>Star Wars</option>
+						<option>Jurassic Park</option>
+					</optgroup>
+					</select> 
+					<label><input type="checkbox" value="Send" /> Checkbox</label>
+					<label><input type="radio" name="ck" value="Send" /> Radio</label>
+					<label><input type="radio" name="ck" value="Send" /> Radio 2</label>
+					<input type="submit" value="Send" />
+					<input type="reset" value="Reset" />
+				</p>
+
+				<h4>Tables:</h4>
+				<table>
+					<thead>
+						<tr>
+							<th>Singer</th>
+							<th>Group</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								Freddie Mercury
+							</td>
+							<td>Queen</td>
+						</tr>
+						<tr>
+							<td>Kurk Cobain</td>
+							<td>Nirvana</td>
+						</tr>
+						<tr>
+							<td>John Lennon</td>
+							<td>Beatles</td>
+						</tr>
+						<tr>
+							<td>Jon Bon Jovi</td>
+							<td>Bon Jovi</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h4>Responsive images</h4>
+				<img src="image.png" />
+				<br /><br />
+
+				<h4>Blockquote</h4>
+				<blockquote>
+					This is a blockquote.
+				</blockquote>
+
+				<h4>Code</h4>
+				<pre><code>&lt;pre>&lt;code>body
+{
+  font-size: 16px;
+  color: #212121;
+}&lt;/code>&lt;/code></code></pre>
+				</div>
+			</div>
+		<footer>
+			NanoCSS is make with <i class="icon-heart" title="love"></i> by <a href="https://son-link.github.io/">Alfonso Saavedra "Son Link"</a>. Source Code is under the GPLv3 or newer license.
+		</footer>
+	</body>
+	<script type="text/javascript">
+		if_dark = false;
+		style = document.getElementById('style');
+		toggle_icon = document.getElementById('toggle-dark');
+		header = document.getElementsByTagName('header')[0];
+		toggle_icon.addEventListener('click', function(e){
+			e.preventDefault();
+			if (if_dark){
+				style.href = 'nanocss.min.css';
+				header.className = '';
+				if_dark = false;
+				toggle_icon.classList.remove('icon-light-up');
+				toggle_icon.classList.add('icon-light-down');
+
+			}else{
+				style.href = 'nanocss-dark.min.css';
+				header.className = 'dark';
+				if_dark = true;
+				toggle_icon.classList.remove('icon-light-down');
+				toggle_icon.classList.add('icon-light-up');
+			}
+		});
+	</script>
+</html>

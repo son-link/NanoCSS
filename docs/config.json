@@ -1,0 +1,64 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "3212f42c65d41ed91cb435d0490e29ed",
+      "css": "flash",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "01c946ce2ed5500e0a918f2b3a7d1923",
+      "css": "css3",
+      "code": 61756,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d35a1d35efeb784d1dc9ac18b9b6c2b6",
+      "css": "pencil",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d73eceadda1f594cec0536087539afbf",
+      "css": "heart",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "7034e4d22866af82bef811f52fb1ba46",
+      "css": "code",
+      "code": 61729,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ff44f01f60948555026580eedf1e39bb",
+      "css": "html5",
+      "code": 61755,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2d14369ed7f129e779eaa30195368218",
+      "css": "light-down",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "f8e120c48c070f8afd2d072651b4fb9f",
+      "css": "light-up",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "0f6a2573a7b6df911ed199bb63717e27",
+      "css": "github-circled",
+      "code": 61595,
+      "src": "fontawesome"
+    }
+  ]
+}

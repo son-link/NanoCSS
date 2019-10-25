@@ -118,6 +118,11 @@ input:not([type=radio]):not([type=checkbox]) {
 	-webkit-appearance: none;
 }
 
+fieldset {
+	border: 1px solid $silver;
+	border-radius: .2rem;
+}
+
 /* Buttons */
 
 button, *[type=submit], *[type=reset] {
@@ -173,6 +178,17 @@ pre {
 	white-space: pre-wrap;
 }
 
-ul, ol, p, table, blockquote, form, blockquote, pre {
+ul, ol, p, table, blockquote, form, blockquote, pre, video, audio, fieldset {
 	margin-bottom: 1.5rem;
+}
+
+video, audio {
+	width: 100%;
+	max-width: 1280px;
+	height: auto;
+	display: block;
+}
+
+audio {
+	max-width: 640px;
 }

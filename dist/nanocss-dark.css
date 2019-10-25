@@ -190,8 +190,14 @@ pre {
   white-space: pre-wrap;
 }
 
-ul, ol, p, table, blockquote, form, blockquote, pre {
+ul, ol, p, table, blockquote, form, blockquote, pre, video, audio {
   margin-bottom: 1.5rem;
+}
+
+video, audio {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
 }
 
 body, input:not([type=submit]):not([type=reset]):not([type=button]):not([type=checkbox]):not([type=radio]),

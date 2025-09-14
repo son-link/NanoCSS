@@ -41,8 +41,41 @@
 				<img alt="GitHub" src="https://img.shields.io/github/license/son-link/NanoCSS?style=flat-square">
 				<img alt="GitHub stars" src="https://img.shields.io/github/stars/son-link/NanoCSS?style=flat-square">
 			</div>
+
+			<div id="getting-started">
+				<a name="getting-started"></a>
+				<h2 style="margin-bottom: 1rem;">Getting started</h2>
+				<p>
+					To use NanoCSS on your website, follow these steps:
+					<ul>
+						<li>
+							Download the latest version available from the <a href="https://github.com/son-link/nanocss/releases/latest" target="_blank">releases page</a>
+						</li>
+						<li>
+							Inside the package there is a folder called dist, which contains four files. Those with -dark in the name are for using the dark theme. The .min.css files contain the minimized styles (everything is on a single line), reducing their size, and are recommended for use in production (when your website is uploaded to the server). Copy the one you want to your project.
+						</li>
+						<li>
+							Inside the HTML header (<strong>&lt;head></strong>), add the following tags:
+							<p>
+								<pre>
+									<code>
+&lt;meta name="viewport" content="width=device-width, initial-scale=1">
+&lt;link rel="stylesheet" href="nanocss.min.css" /></code>
+								</pre>
+							</p>
+							<p>
+								Just replace <strong>nanocss.min.css</strong> with the path and name of the CSS file you are going to use.
+							</p>
+						</li>
+						<li>
+							And now NanoCSS is ready to use.
+						</li>
+					</ul>
+				</p>
+			</div>
+
 			<div id="examples">
-				<h2>Examples:</h2>
+				<h2 style="margin-bottom: 1rem;">Examples:</h2>
 				<a name="typography"></a>
 				<h3>Typography</h3>
 				<p>

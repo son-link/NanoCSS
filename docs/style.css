@@ -39,6 +39,10 @@ footer {
 	margin-bottom: 1rem;
 }
 
+#getting-started {
+	margin-top: 2rem;
+}
+
 @media (max-width: 679px){
 	#doc {
 		width: 90%;

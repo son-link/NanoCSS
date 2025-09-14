@@ -17,178 +17,233 @@ $gray:		#AAAAAA;
 $silver:	#DDDDDD;
 $white:		#FFFFFF;
 
-/* CSS Reset */
+// CSS Reset
 
 html {
-	box-sizing: border-box;
-	font-size: 16px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
   
-*, *:before, *:after {
-	box-sizing: inherit;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
   
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-	margin: 0;
-	padding: 0;
-	font-weight: normal;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
 
-/* Lists */
+// Lists
 
 ul {
-	list-style: circle inside;
+  list-style: circle inside;
 }
 
 ol {
-	list-style: decimal inside;
+  list-style: decimal inside;
 }
 
 li {
-	margin-bottom: .5rem;
+  margin-bottom: .5rem;
 }
 
-li > ul, li > ol {
-	margin: 1rem 0 1rem 1rem;
+li > ul,
+li > ol {
+  margin: 1rem 0 1rem 1rem;
 }
   
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
-	line-height: 1;
-	color: $black;
+  line-height: 1;
+  color: $black;
 }
 
 // Headers
-h1 {font-size: 48px; line-height: 58px}
-h2 {font-size: 40px; line-height: 50px}
-h3 {font-size: 32px; line-height: 42px}
-h4 {font-size: 28px; line-height: 38px}
-h5 {font-size: 24px; line-height: 34px}
-h6 {font-size: 20px; line-height: 30px}
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+}
 
-/* Forms and buttons */
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 32px; 
+  line-height: 42px;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+// Forms and buttons
 
 input:not([type=submit]):not([type=reset]):not([type=button]):not([type=checkbox]):not([type=radio]),
 optgroup,
 select,
 textarea {
-	font-family: inherit;
-	font-size: 100%;
-	margin: 0;
-	margin-bottom: 1rem;
-	background: #FFFFFF;
-	padding: .2rem .4rem;
-	color: $black;
-	border: 1px solid $gray;
-	border-radius: .2rem;
-	display: block;
-	transition: border-color 0.2s ease;
-	width: 100%;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  margin-bottom: 1rem;
+  background: #FFFFFF;
+  padding: .2rem .4rem;
+  color: $black;
+  border: 1px solid $gray;
+  border-radius: .2rem;
+  display: block;
+  transition: border-color 0.2s ease;
+  width: 100%;
 
-	&:focus {
-		border-color: $blue;
-	}
+  &:focus {
+    border-color: $blue;
+  }
 
-	&:disabled {background-color: $silver}
+  &:disabled {
+    background-color: $silver;
+  }
 
-	&:invalid {
-		border: 1px solid $red;
-		box-shadow: none;
-	}
+  &:invalid {
+    border: 1px solid $red;
+    box-shadow: none;
+  }
 }
 
-label, legend {
-	display: block;
-	margin-bottom: .5rem;
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
 }
 
-input:not([type=radio]):not([type=checkbox]), select, button {
-	height: 2rem;
-	display: inline-block;
+input:not([type=radio]):not([type=checkbox]),
+select,
+button {
+  height: 2rem;
+  display: inline-block;
 }
 
 input:not([type=radio]):not([type=checkbox]) {
-	height: 2rem;
-	display: inline-block;
-	-webkit-appearance: none;
+  height: 2rem;
+  display: inline-block;
+  -webkit-appearance: none;
 }
 
 fieldset {
-	border: 1px solid $silver;
-	border-radius: .2rem;
+  border: 1px solid $silver;
+  border-radius: .2rem;
 }
 
-/* Buttons */
+// Buttons
 
-button, *[type=submit], *[type=reset] {
-	background-color: $blue;
-	border-radius: .1rem;
-	color: $white;
-	padding: 0 2rem;
-	display: inline-block;
-	border: 0;
-	transition: background-color .3s ease;
+button,
+*[type=submit],
+*[type=reset] {
+  background-color: $blue;
+  border-radius: .1rem;
+  color: $white;
+  padding: 0 2rem;
+  display: inline-block;
+  border: 0;
+  transition: background-color .3s ease;
 
-	&:hover {
-		background-color: $aqua;
-	}
+  &:hover {
+    background-color: $aqua;
+  }
 }
 
 a {
-	color: $blue;
-	text-decoration: none;
-	transition: color .5s ease;
-	&:hover {color: $black}
+  color: $blue;
+  text-decoration: none;
+  transition: color .5s ease;
+  &:hover {color: $black}
 }
 
 /* Tables */
 
 table {
-	width: 100%;
-	border-collapse: collapse;
-	table-layout: fixed;
-	margin: 10px 0;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 10px 0;
 
-	td, th {
-		padding: 5px;
-		line-height: 150%;
-		border-top: 1px solid $gray;
-		border-bottom: 1px solid $gray;
-		text-align: left;
-	}
+  td,
+  th {
+    padding: 5px;
+    line-height: 150%;
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    text-align: left;
+  }
 }
 
 /* Blockquote and pre */
 
-blockquote, pre {
-	font-family: monospace;
-	background-color: $black;
-	color: $gray;
-	border-radius: 3px;
-	padding: 1rem;
-	margin: 0;
+blockquote,
+pre {
+  font-family: monospace;
+  background-color: $black;
+  color: $gray;
+  border-radius: 3px;
+  padding: 1rem;
+  margin: 0;
 }
 
 pre {
-	white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
-ul, ol, p, table, blockquote, form, blockquote, pre, video, audio, fieldset {
-	margin-bottom: 1.5rem;
+ul,
+ol,
+p,
+table,
+blockquote,
+form,
+blockquote,
+pre,
+video,
+audio,
+fieldset {
+  margin-bottom: 1.5rem;
 }
 
-video, audio {
-	width: 100%;
-	max-width: 1280px;
-	height: auto;
-	display: block;
+video,
+audio {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  display: block;
 }
 
 audio {
-	max-width: 640px;
+  max-width: 640px;
 }

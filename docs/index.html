@@ -18,6 +18,7 @@
 				<a href="https://github.com/son-link/nanocss/" target="_blank"><i class="icon-github-circled"></i></a>
 			</nav>
 		</header>
+		
 		<div class="container">
 			<div id="header">
 				<h1>NanoCSS</h1>
@@ -36,14 +37,14 @@
 				<li><i class="icon-light-down"></i>Dark variant, ideal if you are a creature of the night.</li>
 			</ul>
 			<a id="download" href="https://github.com/son-link/nanocss/releases/latest">Download last release (1.1)</a>
+
 			<div id="github-badges">
 				<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/son-link/NanoCSS/total?style=flat-square">
 				<img alt="GitHub" src="https://img.shields.io/github/license/son-link/NanoCSS?style=flat-square">
 				<img alt="GitHub stars" src="https://img.shields.io/github/stars/son-link/NanoCSS?style=flat-square">
 			</div>
 
-			<div id="getting-started">
-				<a name="getting-started"></a>
+			<section id="getting-started">
 				<h2 style="margin-bottom: 1rem;">Getting started</h2>
 				<p>
 					To use NanoCSS on your website, follow these steps:
@@ -72,59 +73,66 @@
 						</li>
 					</ul>
 				</p>
-			</div>
+			</section>
 
-			<div id="examples">
+			<section id="examples">
 				<h2 style="margin-bottom: 1rem;">Examples:</h2>
-				<a name="typography"></a>
-				<h3>Typography</h3>
-				<p>
-					<h1>Header H1</h1>
-					<h2>Header H2</h2>
-					<h3>Header H3</h3>
-					<h4>Header H4</h4>
-					<h5>Header H5</h5>
-					<h6>Header H6</h6>
-				</p>
-					<a name="lists"></a>
-				<h4>Lists</h4>
-				<p>
-					<ul>
-						<li>Lorem ipsum</li>
-						<li>Lorem ipsum</li>
-						<li>
-							Sublist:
-							<ul>
-								<li>Lorem ipsum</li>
-								<li>Lorem ipsum</li>
-								<li>Lorem ipsum</li>
-							</ul>
-						</li>
-						<li>Lorem ipsum</li>
-					</ul>
-		
-					<ol>
-						<li>Lorem ipsum</li>
-						<li>Lorem ipsum</li>
-						<li>Sublist:
-							<ol>
-								<li>Lorem ipsum</li>
-								<li>Lorem ipsum</li>
-								<li>Lorem ipsum</li>
-							</ol>
-						</li>
-						<li>Lorem ipsum</li>
-					</ol>
-				</p>
-				
-				<h4>Buttons:</h4>
-				<p>
-					<button>Button</button>
-					<input type="submit" value="Submit" />
-					<input type="reset" value="Reset" />
-				</p>
 
-				<h4>Form</h4>
+				<article>	
+					<h3>Typography</h3>
+					<p>
+						<h1>Header H1</h1>
+						<h2>Header H2</h2>
+						<h3>Header H3</h3>
+						<h4>Header h3</h4>
+						<h5>Header H5</h5>
+						<h6>Header H6</h6>
+					</p>
+				</article>
+
+				<article>
+					<h3>Lists</h3>
+					<p>
+						<ul>
+							<li>Lorem ipsum</li>
+							<li>Lorem ipsum</li>
+							<li>
+								Sublist:
+								<ul>
+									<li>Lorem ipsum</li>
+									<li>Lorem ipsum</li>
+									<li>Lorem ipsum</li>
+								</ul>
+							</li>
+							<li>Lorem ipsum</li>
+						</ul>
+			
+						<ol>
+							<li>Lorem ipsum</li>
+							<li>Lorem ipsum</li>
+							<li>Sublist:
+								<ol>
+									<li>Lorem ipsum</li>
+									<li>Lorem ipsum</li>
+									<li>Lorem ipsum</li>
+								</ol>
+							</li>
+							<li>Lorem ipsum</li>
+						</ol>
+					</p>
+				</article>
+
+				<article>
+					<h3>Buttons:</h3>
+					<p>
+						<button>Button</button>
+						<input type="submit" value="Submit" />
+						<input type="reset" value="Reset" />
+					</p>
+				</article>
+				
+				<article>
+					<h3>Form</h3>
 					<label>Input</label>
 					<input type="text" placeholder="placeholder" />
 					
@@ -132,16 +140,19 @@
 					<select>
 						<option>Select with options</option>
 					</select>
+
 					<select>
-					<optgroup label="Series">
-						<option>Dragon Ball</option>
-						<option>Power Rangers</option>
-					</optgroup>
-					<optgroup label="Movies">
-						<option>Star Wars</option>
-						<option>Jurassic Park</option>
-					</optgroup>
+						<optgroup label="Series">
+							<option>Dragon Ball</option>
+							<option>Power Rangers</option>
+						</optgroup>
+
+						<optgroup label="Movies">
+							<option>Star Wars</option>
+							<option>Jurassic Park</option>
+						</optgroup>
 					</select>
+					
 					<fieldset>
 						<legend>Checbox & Radios</legend>
 						<label><input type="checkbox" value="Send" /> Checkbox</label>
@@ -150,69 +161,88 @@
 						<input type="submit" value="Send" />
 						<input type="reset" value="Reset" />
 					</fieldset>
+				</article>
 				
-				<h4>Tables:</h4>
-				<table>
-					<thead>
-						<tr>
-							<th>Singer</th>
-							<th>Group</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								Freddie Mercury
-							</td>
-							<td>Queen</td>
-						</tr>
-						<tr>
-							<td>Kurk Cobain</td>
-							<td>Nirvana</td>
-						</tr>
-						<tr>
-							<td>John Lennon</td>
-							<td>Beatles</td>
-						</tr>
-						<tr>
-							<td>Jon Bon Jovi</td>
-							<td>Bon Jovi</td>
-						</tr>
-					</tbody>
-				</table>
+				<article>
+					<h3>Tables:</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Singer</th>
+								<th>Group</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									Freddie Mercury
+								</td>
+								<td>Queen</td>
+							</tr>
+							<tr>
+								<td>Kurk Cobain</td>
+								<td>Nirvana</td>
+							</tr>
+							<tr>
+								<td>John Lennon</td>
+								<td>Beatles</td>
+							</tr>
+							<tr>
+								<td>Jon Bon Jovi</td>
+								<td>Bon Jovi</td>
+							</tr>
+						</tbody>
+					</table>
+				</article>
+				
+				<article>
+					<h3>Responsive images</h3>
+					<img src="image.png" />
+				</article>
 
-				<h4>Responsive images</h4>
-				<img src="image.png" />
-				<br /><br />
+				<article>
+					<h3>Blockquote</h3>
+					<blockquote>
+						This is a blockquote.
+					</blockquote>
+				</article>
 
-				<h4>Blockquote</h4>
-				<blockquote>
-					This is a blockquote.
-				</blockquote>
-
-				<h4>Code</h4>
+				<article>
+					<h3>Code</h3>
 				<pre><code>&lt;pre>&lt;code>body
 {
   font-size: 16px;
   color: #212121;
-}&lt;/code>&lt;/code></code></pre>
+}&lt;/code>&lt;/code></code></pre>					
+				</article>
 
-				<h4>Video</h4>
+				<article>
+					<h3>Video</h3>
 					<video src="https://son-link.github.io/microcss/video.mp4" controls></video>
 					<p>
 						<a href="https://www.pexels.com/video/person-typing-using-a-white-keyboard-2369564/">
-						Video by Grappen Studio from Pexels
-					</a>
+							Video by Grappen Studio from Pexels
+						</a>
 					</p>
+				</article>					
 
-					<h4>Audio</h4>
+				<article>
+					<h3>Audio</h3>
 					<audio src="http://www.ivoox.com/listen_mn_43292945_1.m4a?internal=HTML5" controls></audio>
 					<p>
 						<a href="https://www.ivoox.com/podcast-remember-90-amp-2000-energy-power-by-audios-mp3_rf_43292945_1.html">Podcast Remember 90 & 2000 Energy Power by Fran DeJota 19-10-2019 </a>
 					</p>
-					
-				</div>
-			</div>
+				</article>
+
+				<section>
+					<h3>Section</h3>
+					<article>
+						And a article
+					</article>
+				</section>
+			</section>
+		</div>
+		
 		<footer>
 			NanoCSS is make with <i class="icon-heart" title="love"></i> by <a href="https://son-link.github.io/">Alfonso Saavedra "Son Link"</a>. Source Code is under the GPLv3 or newer license.
 		</footer>
@@ -224,14 +254,14 @@
 		header = document.getElementsByTagName('header')[0];
 		toggle_icon.addEventListener('click', function(e){
 			e.preventDefault();
-			if (if_dark){
+			if (if_dark) {
 				style.href = 'nanocss.min.css';
 				header.className = '';
 				if_dark = false;
 				toggle_icon.classList.remove('icon-light-up');
 				toggle_icon.classList.add('icon-light-down');
 
-			}else{
+			} else {
 				style.href = 'nanocss-dark.min.css';
 				header.className = 'dark';
 				if_dark = true;

@@ -1,15 +1,13 @@
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body,
@@ -36,7 +34,7 @@ ol {
 }
 
 li {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 li > ul,
@@ -93,43 +91,38 @@ textarea {
   margin: 0;
   margin-bottom: 1rem;
   background: #FFFFFF;
-  padding: .2rem .4rem;
+  padding: 0.2rem 0.4rem;
   color: #212121;
   border: 1px solid #AAAAAA;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   display: block;
-  -webkit-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   width: 100%;
 }
-
 input:not([type=submit]):not([type=reset]):not([type=button]):not([type=checkbox]):not([type=radio]):focus,
 optgroup:focus,
 select:focus,
 textarea:focus {
   border-color: #0074D9;
 }
-
 input:not([type=submit]):not([type=reset]):not([type=button]):not([type=checkbox]):not([type=radio]):disabled,
 optgroup:disabled,
 select:disabled,
 textarea:disabled {
   background-color: #DDDDDD;
 }
-
 input:not([type=submit]):not([type=reset]):not([type=button]):not([type=checkbox]):not([type=radio]):invalid,
 optgroup:invalid,
 select:invalid,
 textarea:invalid {
   border: 1px solid #FF4136;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 label,
 legend {
   display: block;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 input:not([type=radio]):not([type=checkbox]),
@@ -147,22 +140,20 @@ input:not([type=radio]):not([type=checkbox]) {
 
 fieldset {
   border: 1px solid #DDDDDD;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
 }
 
 button,
 *[type=submit],
 *[type=reset] {
   background-color: #0074D9;
-  border-radius: .1rem;
+  border-radius: 0.1rem;
   color: #FFFFFF;
   padding: 0 2rem;
   display: inline-block;
   border: 0;
-  -webkit-transition: background-color .3s ease;
-  transition: background-color .3s ease;
+  transition: background-color 0.3s ease;
 }
-
 button:hover,
 *[type=submit]:hover,
 *[type=reset]:hover {
@@ -172,10 +163,8 @@ button:hover,
 a {
   color: #0074D9;
   text-decoration: none;
-  -webkit-transition: color .5s ease;
-  transition: color .5s ease;
+  transition: color 0.5s ease;
 }
-
 a:hover {
   color: #212121;
 }
@@ -187,7 +176,6 @@ table {
   table-layout: fixed;
   margin: 10px 0;
 }
-
 table td,
 table th {
   padding: 5px;
@@ -238,6 +226,14 @@ audio {
   max-width: 640px;
 }
 
+section {
+  padding: 1rem;
+}
+
+article {
+  padding: 0.5rem 0;
+}
+
 body,
 input:not([type=submit]):not([type=reset]):not([type=button]):not([type=checkbox]):not([type=radio]),
 optgroup,
@@ -260,10 +256,8 @@ a:hover {
 button,
 *[type=submit],
 *[type=reset] {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-
 button:hover,
 *[type=submit]:hover,
 *[type=reset]:hover {

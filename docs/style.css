@@ -43,6 +43,10 @@ footer {
 	margin-top: 2rem;
 }
 
+article > h3 {
+	padding-bottom: 1rem;
+}
+
 @media (max-width: 679px){
 	#doc {
 		width: 90%;

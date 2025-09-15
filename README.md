@@ -12,7 +12,7 @@ NanoCSS is a ready to use Lightweight CSS Framework and not required any Javascr
 * Write using SASS and include the 16 colors <a href="http://clrs.cc/" target="_blank">Clrs</a> palette. You can change the colors of many elemets or the entire palette.
 * Dark variant, ideal if you are a creature of the night.
 
-MicroCSS is under the GNU/GPLv3 or newer license.
+NanoCSS is under the GNU/GPLv3 or newer license.
 
 ## Docs
 
